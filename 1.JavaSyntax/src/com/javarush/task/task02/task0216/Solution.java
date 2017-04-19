@@ -6,6 +6,13 @@ package com.javarush.task.task02.task0216;
 public class Solution {
     public static int min(int a, int b, int c) {
         //напишите тут ваш код
+        if ((a <= b) & (a <= c))
+            return a;
+
+        if ((b <= a) & (b <= c))
+            return b;
+
+        return c;
     }
 
     public static void main(String[] args) throws Exception {
