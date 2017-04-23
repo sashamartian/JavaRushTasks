@@ -10,5 +10,7 @@ import java.io.*;
 public class Solution {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println(br.readLine() + " зарабатывает $5,000. Ха-ха-ха!");
     }
 }
