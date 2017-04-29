@@ -9,9 +9,11 @@ public class Cat {
 
     public static void setCatsCount(int catsCount) {
         //напишите тут ваш код
+        Cat.catsCount = catsCount;
     }
 
     public static void main(String[] args) {
-
+        Cat.setCatsCount(10);
+        System.out.println(Cat.catsCount);
     }
 }
