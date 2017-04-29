@@ -15,8 +15,9 @@ public class Solution {
     public static class Apple {
         public static int applesPrice = 0;
 
-        public static void addPrice(int applesPrice) {
+        public static void addPrice(int appPrice) {
             //напишите тут ваш код
+            applesPrice += appPrice;
         }
     }
 }
