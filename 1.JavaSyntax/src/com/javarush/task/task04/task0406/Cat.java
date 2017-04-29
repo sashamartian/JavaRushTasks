@@ -11,9 +11,12 @@ public class Cat {
         String fullName = firstName + " " + lastName;
 
         //напишите тут ваш код
+        this.fullName = fullName;
     }
 
     public static void main(String[] args) {
-
+        Cat cat = new Cat();
+        cat.setName("1", "2");
+        System.out.println(cat.fullName);
     }
 }
