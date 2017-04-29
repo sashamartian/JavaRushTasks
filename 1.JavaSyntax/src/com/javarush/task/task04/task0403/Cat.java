@@ -9,9 +9,12 @@ public class Cat {
 
     public void setName(String name) {
         //напишите тут ваш код
+        this.name = name;
     }
 
     public static void main(String[] args) {
-
+        Cat cat = new Cat();
+        cat.setName("Cat");
+        System.out.println(cat.name);
     }
 }
