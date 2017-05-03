@@ -12,7 +12,12 @@ public class Solution {
 
     public static void closeToTen(int a, int b) {
         //::CODE:
-
+        if (abs(10 - a) < abs(10 - b)) {
+            System.out.println(a);
+        }
+        else {
+            System.out.println(b);
+        }
     }
 
     public static int abs(int a) {
