@@ -14,5 +14,17 @@ public class Solution {
 
     public static void checkSeason(int month) {
         //::CODE:
+        if ((month > 0 && month < 3) || (month > 11 && month < 13)) {
+            System.out.println("зима");
+        }
+        else if (month > 2 && month < 6) {
+            System.out.println("весна");
+        }
+        else if (month > 5 && month < 9) {
+            System.out.println("лето");
+        }
+        else {
+            System.out.println("осень");
+        }
     }
 }
