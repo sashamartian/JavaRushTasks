@@ -10,6 +10,16 @@ import java.io.*;
 public class Solution {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
+        int m = Integer.parseInt(reader.readLine()); //читаем строку с клавиатуры
+        int n = Integer.parseInt(reader.readLine()); //читаем строку с клавиатуры
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print("8");
+            }
+            System.out.println();
+        }
     }
 }
