@@ -8,6 +8,9 @@ package com.javarush.task.task05.task0504;
 public class Solution {
     public static void main(String[] args) {
         //напишите тут ваш код
+        Cat cat1 = new Cat("1", 1, 1, 1);
+        Cat cat2 = new Cat("2", 2, 2, 2);
+        Cat cat3 = new Cat("1", 3, 3, 3);
     }
 
     public static class Cat {
